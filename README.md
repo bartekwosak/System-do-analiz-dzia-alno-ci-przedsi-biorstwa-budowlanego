@@ -1,4 +1,4 @@
-# System-do-analiz-dzia-alno-ci-przedsi-biorstwa-budowlanego
+# SYSTEM DO ANALIZ DZIAŁALNOŚCI PRZEDSIĘBIORSTWA BUDOWLANEGO
 
 Opis ogólny:
 
@@ -7,28 +7,28 @@ Do implementacji hurtowni danych wraz z warstwami analityki biznesowej wykorzyst
 
 Wykorzystane technologie i usługi:
 
-- Microsoft SQL Server 2017 Developer
-- Microsoft SQL Server Integration Services (SSIS)
-- Microsoft SQL Server Analysis Services (SSAS - Multidimensional Model & Tabular Model)
-- Microsoft Power BI
-- T-SQL
-- DAX
-- MDX
-- Microsoft Excel PowerPivot
+* Microsoft SQL Server 2017 Developer
+* Microsoft SQL Server Integration Services (SSIS)
+* Microsoft SQL Server Analysis Services (SSAS - Multidimensional Model & Tabular Model)
+* Microsoft Power BI
+* T-SQL
+* DAX
+* MDX
+* Microsoft Excel PowerPivot
 
 Zaimplementowane rozwiązania:
 
-- projekt ERD hurtowni danych - schemat konstelacyjny
-- proces ETL za pomocą SSIS
-- model wielowymiarowy OLAP za pomocą SSAS
-- model tabelaryczny za pomocą SSAS
-- raportowanie i wizualizacja za pomocą Power BI
-- eksploracja danych za pomocą algorytmiki SSAS (Microsoft Association Rules, Microsoft Naive Bayes, Microsoft Clustering)
-- testowanie zaimplementowanych rozwiązań
-- dokumentacja techniczna
+* projekt ERD hurtowni danych - schemat konstelacyjny
+* proces ETL za pomocą SSIS
+* model wielowymiarowy OLAP za pomocą SSAS
+* model tabelaryczny za pomocą SSAS
+* raportowanie i wizualizacja za pomocą Power BI
+* eksploracja danych za pomocą algorytmiki SSAS (Microsoft Association Rules, Microsoft Naive Bayes, Microsoft Clustering)
+* testowanie zaimplementowanych rozwiązań
+* dokumentacja techniczna
 
 Praca zawiera implementacje z dziedzin:
-- Business Intelligence
-- Data Analysis
-- ERP
-- Data warehouse
+* Business Intelligence
+* Data Analysis
+* ERP
+* Data warehouse
