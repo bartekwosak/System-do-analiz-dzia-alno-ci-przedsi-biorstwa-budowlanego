@@ -1,0 +1,5 @@
+1. Baza a hurtownia.
+2. MOLAP
+3. MDX
+4. Data Mining (dwie omówiæ, resztê wymieniæ)
+5. Struktura konstelacji.

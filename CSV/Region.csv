@@ -1,0 +1,37 @@
+idRegionu;nazwa;idPanstwa_FK
+1;dolnoœl¹skie;1
+2;kujawsko-pomorskie;1
+3;lubelskie;1
+4;lubuskie;1
+5;³ódzkie;1
+6;ma³opolskie;1
+7;mazowieckie;1
+8;opolskie;1
+9;podkarpackie;1
+10;podlaskie;1
+11;pomorskie;1
+12;œl¹skie;1
+13;œwiêtokrzyskie;1
+14;warmiñsko-mazurskie;1
+15;wielkopolskie;1
+16;zachodniopomorskie;1
+17;Saksonia;2
+18;Berlin;2
+19;Brandenburgia;2
+20;Meklemburgia;2
+21;Hamburg;2
+22;Szlezwik-Holsztyn;2
+23;Bawaria;2
+24;Oslo;3
+25;Aust-Agder;3
+26;Telemark;3
+27;Vestfold;3
+28;Hordaland;3
+29;Oppland;3
+30;Hedmark;3
+31;Skania;4
+32;Stockholm;4
+33;Uppsala;4
+34;Obwód chersoñski;5
+35;Obwód lwowski;5
+36;Obwód ¿ytomierski;5

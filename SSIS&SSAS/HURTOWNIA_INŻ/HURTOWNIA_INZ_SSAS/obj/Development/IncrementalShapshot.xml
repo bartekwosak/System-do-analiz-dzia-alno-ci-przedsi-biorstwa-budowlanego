@@ -1,0 +1,292 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HURTOWNIA_INZ_SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>zwUzZDvbnwBGbB6BXN7OQRpcz08=11.01.2019 00:42:3309.01.2019 19:47:24</TimeStamp>
+        <ID>
+          <String>HURTOWNIA INZ</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>naXCzovqPmQjzmlemJKr/PA/aJ8=21.01.2019 22:02:4316.01.2019 14:05:14</TimeStamp>
+        <ID>
+          <String>V_HD_SPRZEDAZ</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0bQynJc8EHKeHnyZy7biUiQn7YE=21.01.2019 22:02:4316.01.2019 14:06:23</TimeStamp>
+        <ID>
+          <String>V_HD_ZAKUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>37wAICOYYsheb+4l3dKddcu9vAw=16.01.2019 14:06:4116.01.2019 14:06:41</TimeStamp>
+        <ID>
+          <String>V_HD_WSZYSTKO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pY9ulkimkS47ygkV8NxRl4oSWSE=16.01.2019 16:38:4616.01.2019 16:38:46</TimeStamp>
+        <ID>
+          <String>Grupa Klienteli</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zv5JVPVVnXdimjgrdjHMhTiCLSw=21.01.2019 22:04:0416.01.2019 16:38:55</TimeStamp>
+        <ID>
+          <String>Klient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dYoX88l2L78h5ZoOgNQQiVBR+MQ=22.01.2019 01:06:5616.01.2019 16:39:13</TimeStamp>
+        <ID>
+          <String>Kwartal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Th6dEd+OsJbxFTrKvPM6eymHBXU=21.01.2019 22:02:4316.01.2019 16:39:27</TimeStamp>
+        <ID>
+          <String>Miasto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>50dN1NYlK9ZajuHwgNdn9YoGlM4=21.01.2019 22:02:4316.01.2019 16:41:25</TimeStamp>
+        <ID>
+          <String>Miesiac</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BZYeEvJipEHTm7mE73FBMkvOy0k=16.01.2019 16:43:1416.01.2019 16:43:14</TimeStamp>
+        <ID>
+          <String>Panstwo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>grw7YkMXAEclkkK1KfevvzMJdwc=16.01.2019 16:43:3316.01.2019 16:43:33</TimeStamp>
+        <ID>
+          <String>Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>52BssMQm6QT3aKeyE+Ba6TdGF6Y=21.01.2019 22:04:2516.01.2019 16:43:46</TimeStamp>
+        <ID>
+          <String>Rodzaj Obiektu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>91M7MZQcdGoJ799gx1ZpCkWJJ7I=21.01.2019 22:16:0916.01.2019 16:43:56</TimeStamp>
+        <ID>
+          <String>Rodzaj Uslugi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XmDNEWteYemWp7eoUG7TTGRVhCs=16.01.2019 16:44:0416.01.2019 16:44:04</TimeStamp>
+        <ID>
+          <String>Rodzina Obiektu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>g4Tb0djZJsXr6FrTcYeQmsNKa/k=16.01.2019 16:44:1816.01.2019 16:44:18</TimeStamp>
+        <ID>
+          <String>Rok</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Glvb4CXgerlnGZITB2iau12t0gM=16.01.2019 16:44:3216.01.2019 16:44:32</TimeStamp>
+        <ID>
+          <String>Sekcja Uslugi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wkdXTpWGLdGSS0yZDyWH4UEPF8w=22.01.2019 01:06:5616.01.2019 16:44:39</TimeStamp>
+        <ID>
+          <String>Typ Ewidencji Sprzedazy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yeWXaLLtlBKtO2+vOdEBJyIKsSk=16.01.2019 16:44:4616.01.2019 16:44:46</TimeStamp>
+        <ID>
+          <String>Typ Klienta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RU6eja23h+I/TjUDPO/alaUtX6o=16.01.2019 16:44:5416.01.2019 16:44:54</TimeStamp>
+        <ID>
+          <String>Typ Platnosci</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0Vv7RISBWVTJqMAxyRRIll72NPo=16.01.2019 16:45:0316.01.2019 16:45:03</TimeStamp>
+        <ID>
+          <String>Typ Projektu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fc0xjjzfw6jjil/SNUlSX3u1cQ0=16.01.2019 16:45:1516.01.2019 16:45:15</TimeStamp>
+        <ID>
+          <String>Typ Umowy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Br57GJH3RivkNpP7Q3dTG0ej4Lc=16.01.2019 16:45:4016.01.2019 16:45:40</TimeStamp>
+        <ID>
+          <String>Kwartal Zakup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ba8rt36XX6/qKL0drCXL3lCRexE=21.01.2019 22:16:3116.01.2019 16:45:54</TimeStamp>
+        <ID>
+          <String>Miasto Zakup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gNEGSJBPvk/r5bhuPXNVAYsMOEI=21.01.2019 22:16:0916.01.2019 16:46:25</TimeStamp>
+        <ID>
+          <String>Miesiac Zakup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p/I3lV2kKZMeaoCAoWht4zr1iGI=21.01.2019 22:16:4616.01.2019 16:46:43</TimeStamp>
+        <ID>
+          <String>Sprzedawca</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YxlX/aItdZZ2j5lUM3y9BPamZTg=16.01.2019 16:47:0416.01.2019 16:47:04</TimeStamp>
+        <ID>
+          <String>Rok Zakup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ainJTbe8ulrMr/euXjoFFqnEWPw=16.01.2019 16:47:3616.01.2019 16:47:28</TimeStamp>
+        <ID>
+          <String>Region 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5l0vSKNEoBa1ZEwAutDC3aK9p8U=16.01.2019 16:48:0216.01.2019 16:48:02</TimeStamp>
+        <ID>
+          <String>Panstwo Zakup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>179tOX97AoSzzXf99pKPLpmwjfk=16.01.2019 16:48:1816.01.2019 16:48:18</TimeStamp>
+        <ID>
+          <String>Typ Ewidencji Zakupu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yKs/VjZ3jTii/+MYfolMh/+Q/1g=16.01.2019 16:48:3116.01.2019 16:48:31</TimeStamp>
+        <ID>
+          <String>Typ Platnosci Zakup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>W02iFPcbeOsk8HjKqtGhq2XQoHM=16.01.2019 16:48:5216.01.2019 16:48:52</TimeStamp>
+        <ID>
+          <String>Typ Sprzedawcy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rCyQl7lg3wYvdtt2iM9meLwJ1nU=16.01.2019 16:49:0416.01.2019 16:49:04</TimeStamp>
+        <ID>
+          <String>Typ Towaru</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>OFixx7UI7WftxiRjNpBjdWHcZzI=22.01.2019 01:06:5616.01.2019 16:50:33BW4CVlUV74+VM7PqHMT6jKT+xFY=16.01.2019 16:50:3316.01.2019 16:50:33</TimeStamp>
+        <ID>
+          <String>CUBE_HD_SPRZEDAZ</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Q85GNxOYhNI2P1g145OjoKDSdm0=22.01.2019 01:06:5616.01.2019 16:51:48AMY5FjOWPefqv2nrxS/RDWvE/5o=16.01.2019 16:51:4816.01.2019 16:51:48</TimeStamp>
+        <ID>
+          <String>CUBE_HD_ZAKUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>k5VULGb9dtupDUdM2fW/Wn3ygHs=22.01.2019 14:43:2318.01.2019 21:18:07</TimeStamp>
+        <ID>
+          <String>Usluga FCT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>FgC0Ii0Zl29eJwPAcRMJLAJz6v4=22.01.2019 15:53:5518.01.2019 21:47:29</TimeStamp>
+        <ID>
+          <String>Drzewo Decyzyjne UsługaFCT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>0Qiak+bQ25x0ZO7XIPr6NqN3YjI=18.01.2019 22:02:0518.01.2019 21:56:33</TimeStamp>
+        <ID>
+          <String>jikopknk</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>1o6CJ4+4g3vpADCd2jLj3jR9jn8=18.01.2019 22:23:4609.01.2019 19:47:01</TimeStamp>
+      <ID>
+        <String>HURTOWNIA_INZ_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-01-24T20:17:27.766667Z</LastDeployed>
+</DeploymentSnapshot>

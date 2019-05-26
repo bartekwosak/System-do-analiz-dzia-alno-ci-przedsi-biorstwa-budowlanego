@@ -1,0 +1,248 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="853ef274-4b2f-44a7-a0e2-d01d06b642b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>jikopknk</ID>
+  <Name>Klasteryzacja UsługaFCT</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_UslugaFCT</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15961" scrolltop="-7964" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="35904" y="20929" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="UslugaFCT" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3942" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000660f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_UslugaFCT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-15961</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7964</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2572f938-f3fe-40e2-8ab4-612a22a27f12">
+    <DataSourceViewID>V_HD_SPRZEDAZ</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="186936f8-118f-41f4-9ba1-3bfcecd2712c">
+      <ID>Id Klienta FK</ID>
+      <Name>Id Klienta FK</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e1fef7b-80dc-4b44-9317-342ae4d30827">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0bb3ba7d-e448-48c8-93c4-f8ec9c67854e">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idKlienta_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7d6c48e1-083c-4898-a24c-ce443cea4d5f">
+      <ID>Id Miasta FK</ID>
+      <Name>Id Miasta FK</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="919a4a41-3382-4293-8004-2573d0560764">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff2ff1fd-9337-4c14-839c-4595e70b503a">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idMiasta_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0bbfa47c-4931-470c-be66-ee3d68478286">
+      <ID>Id Rodzaju Obiektu FK</ID>
+      <Name>Id Rodzaju Obiektu FK</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e687257b-98e3-4c35-9f02-7ecd4b7cf0b8">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ca88b7b-779b-4891-985e-4968c0867213">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idRodzajuObiektu_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="cbd73634-40c1-408f-b413-ea52fb787bf8">
+      <ID>Id Rodzaju Uslugi FK</ID>
+      <Name>Id Rodzaju Uslugi FK</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8529c7e4-24e6-4517-bd91-7c954b342f16">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="98c5748a-cc80-43df-abe1-0dd1f3fe8859">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idRodzajuUslugi_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9f343716-dff6-4484-a69f-faa32c70f805">
+      <ID>Id Typu Projektu FK</ID>
+      <Name>Id Typu Projektu FK</Name>
+      <Type>Long</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aa6895e2-a322-4a54-abe6-aea58bf14bdc">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="93298b26-6f02-42c0-97d4-a12aef9ef7c5">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idTypuProjektu_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e422da50-551d-42b3-ba2d-58a064eb761e">
+      <ID>Id Typu Umowy FK</ID>
+      <Name>Id Typu Umowy FK</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3679a0df-c21b-4f44-88bc-5605634c3a53">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8e9f73f-91b2-40ca-907f-4a583a086e7f">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idTypuUmowy_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="054978bf-ef3e-45e9-8ea5-de1f3c398afc">
+      <ID>Id Uslugi</ID>
+      <Name>Id Uslugi</Name>
+      <IsKey>true</IsKey>
+      <Type>Long</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="96dfb155-9167-493b-b034-21d8e8d4d00f">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ebcded5b-2a5b-4860-9a25-c9cc43b963c1">
+            <TableID>dbo_UslugaFCT</TableID>
+            <ColumnID>idUslugi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="d8050a31-87c3-4811-9aa8-7f96884eaba1">
+      <ID>hiuiuhi</ID>
+      <Name>Klasteryzacja UsługaFCT</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Clustering</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="211fb0ed-d9c9-4a52-8dd8-6d97b679576e">
+          <ID>Id Klienta FK</ID>
+          <Name>Id Klienta FK</Name>
+          <SourceColumnID>Id Klienta FK</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="dd284108-bce4-4c43-af48-2b22393edfee">
+          <ID>Id Miasta FK</ID>
+          <Name>Id Miasta FK</Name>
+          <SourceColumnID>Id Miasta FK</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="4acf33d6-a72d-41b6-b69b-79a276d74032">
+          <ID>Id Rodzaju Obiektu FK</ID>
+          <Name>Id Rodzaju Obiektu FK</Name>
+          <SourceColumnID>Id Rodzaju Obiektu FK</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="d46e91a3-9276-4e76-80fb-9299a9b5ab0c">
+          <ID>Id Rodzaju Uslugi FK</ID>
+          <Name>Id Rodzaju Uslugi FK</Name>
+          <SourceColumnID>Id Rodzaju Uslugi FK</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="b3ea1ff6-677c-43c9-b413-4f90a9add4dd">
+          <ID>Id Typu Projektu FK</ID>
+          <Name>Id Typu Projektu FK</Name>
+          <SourceColumnID>Id Typu Projektu FK</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="01b65d0e-99c0-4b53-b0b4-d4960e1b9548">
+          <ID>Id Typu Umowy FK</ID>
+          <Name>Id Typu Umowy FK</Name>
+          <SourceColumnID>Id Typu Umowy FK</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="6e14c258-fd8e-4da4-8d0e-675098d9641f">
+          <ID>Id Uslugi</ID>
+          <Name>Id Uslugi</Name>
+          <SourceColumnID>Id Uslugi</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+      </Columns>
+      <AllowDrillThrough>true</AllowDrillThrough>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
